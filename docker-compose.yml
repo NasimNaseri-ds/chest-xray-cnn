@@ -1,0 +1,15 @@
+services:
+  chest-xray-cnn:
+    container_name: xray
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    volumes:
+      - "./data:/data"
+      - "./models:/models"
+      - "./jupyter_config:/root/.jupyter"
+      - "./notebooks:/tf/notebooks"
+    ports:
+      - "8888:8888"
+        
+         

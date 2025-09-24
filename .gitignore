@@ -1,0 +1,18 @@
+# Ignore dataset
+data/
+*.jpg
+*.png
+*.jpeg
+
+# Ignore trained models
+models/
+*.h5
+*.keras
+
+# Ignore Jupyter checkpoints & notebooks (optional)
+.ipynb_checkpoints/
+*.ipynb
+
+# System files
+.DS_Store
+Thumbs.db

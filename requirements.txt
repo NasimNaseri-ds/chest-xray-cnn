@@ -1,0 +1,10 @@
+numpy==1.23.5
+pandas
+scikit-learn
+matplotlib
+seaborn
+opencv-python-headless
+pillow
+tqdm
+albumentations
+imbalanced-learn
