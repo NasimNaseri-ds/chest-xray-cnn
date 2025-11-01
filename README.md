@@ -4,7 +4,7 @@ Since this was my first CNN project, I reduced the number of images and merged t
 Even with this reduction, I applied professional techniques to make the project realistic, including:
 Proper training, validation, and test splits,
 ImageDataGenerator for rescaling and augmentation,
-Callbacks: EarlyStopping, ReduceLROnPlateau, ModelCheckpoint,
+Callbacks(EarlyStopping, ReduceLROnPlateau, ModelCheckpoint),
 Balancing the data inside the CNN using class weights,
 Building a DenseNet121-based CNN for classification
 
